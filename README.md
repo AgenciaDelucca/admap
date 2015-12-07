@@ -26,7 +26,7 @@ $(document).ready(function () {
         address: "1313 Disneyland Dr, Anaheim, CA 92802, United States",
         scrollwheel: false,
         disableDefaultUI: true,
-        mapTypeId: google.maps.MapTypeId.ROADMAP
+        mapTypeId: google.maps.MapTypeId.ROADMAP,
         styles: [{
             "featureType": "administrative.land_parcel",
             "elementType": "all",
