@@ -1,11 +1,12 @@
 # admap
-AD Map is a simple  jQuery plugin to render a map from an Address.
+admap.js is a simple jQuery plugin used to render a Google Maps based on an Address in the simplest way possible.
 
 # How to use:
 
-You must require the js from google maps (http://maps.googleapis.com/maps/api/js?key=you_key) and the admap.js script.
+You must require Google Maps API js (like this "http://maps.googleapis.com/maps/api/js?key=your_key", and don't forget to replace your_key with your Google Maps API key)
+and the admap.js script.
 
-## Simple usage :
+## Simple usage (With Data Attribute) :
 ```html
 <div id="map" data-address="1313 Disneyland Dr, Anaheim, CA 92802, United States"></div>
 ```
